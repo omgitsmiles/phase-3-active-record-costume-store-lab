@@ -15,11 +15,11 @@ ActiveRecord::Schema.define(version: 2022_10_14_203354) do
   create_table "costume_stores", force: :cascade do |t|
     t.string "name"
     t.string "location"
-    t.integer "costume_inventory"
+    t.integer "custome_inventory"
     t.integer "num_of_employees"
     t.boolean "is_in_business"
     t.datetime "opening_time"
-    t.datetime "closing_time"
+    t.datetime "close_time"
   end
 
   create_table "costumes", force: :cascade do |t|
